@@ -8,7 +8,7 @@ body {
   padding-top: 50px;
 }
 .container {
-    margin-top: -10px;
+  margin-top: -10px;
   width: 100%;
   text-align: left;
   display: inline-block;
@@ -18,9 +18,9 @@ body {
   position: relative;
   left: 50%;
   font-size: 30px;
-  margin-top: -10px;
+  margin-top: -25px;
   padding: 0.6em;
-  top: 0.2px;
+  top: 0.02px;
   color: darkgreen;
   background-color: white;
   display: inline-block;
@@ -38,6 +38,9 @@ h6 {
   margin-top: 60px;
   display: flex;
   justify-content: space-around;
+}
+.content h3{
+  font-family: 'Lato', sans-serif;
 }
 .ft_col,
 .sd_col {
