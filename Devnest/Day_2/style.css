@@ -1,22 +1,16 @@
 #main{
-    padding-top: 10px ;
-    width:85%;
-    margin:auto;
-    
+    width:85%;  
 }
 #a-wrap{
-    margin-top:50px
+    margin-top:25px;
 }
 #wrap
 {
-  
     padding: 15px;
     border-radius: 15px;
-    background-color:black;
     width:50%;
-    margin: auto;
+    margin:0;
     margin-top: 23px;
-    color:white
     
 }
 h1{
@@ -28,18 +22,12 @@ div{
 sub{
     font-size: 16px;
 }
-
-#date-large{
-    font-size: 18px;
-}
-
-
 mark { 
-    background-color: red;
+    background-color: yellow;
     display: inline-block; 
-        padding-bottom: 7px;
-        line-height: 0%; 
-    color:white}
+    padding-bottom: 5px;
+    line-height: 0%; 
+    color:black;}
 
 small{
         font-size: 16px;
