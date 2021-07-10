@@ -1,5 +1,46 @@
-.main{
-    text-align: left;
-    font-family: georgia,serif;
-    font-size:16px;
+#heading{
+    padding-top: 10px ;
+    width:85%;
+    margin:auto;
+    
+}
+#para-wrapper{
+    margin-top:50px
+}
+#wrapper
+{
+  
+    padding: 15px;
+    border-radius: 15px;
+    background-color:black;
+    width:50%;
+    margin: auto;
+    margin-top: 23px;
+    color:white
+    
+}
+h1{
+    font-family: sans-serif;
+}
+div{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+sub{
+    font-size: 16px;
+}
+
+#date-large{
+    font-size: 18px;
+}
+
+
+mark { 
+    background-color: red;
+    display: inline-block; 
+        padding-bottom: 7px;
+        line-height: 0%; 
+    color:white}
+
+small{
+        font-size: 16px;
 }
