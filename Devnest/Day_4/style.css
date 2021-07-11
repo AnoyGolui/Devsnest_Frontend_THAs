@@ -1,0 +1,52 @@
+.outer{
+	margin-left: 25%;
+	margin-top: 100px;
+	width: 500px;
+	height: 500px;
+	border-radius: 50%;
+	background-color: red;
+	border: 5px solid lightgrey;
+}
+.inner{
+	border: 4px solid white;
+	height: 400px;
+	width: 400px;
+	border-radius: 50%;
+	background-color: white;
+	margin-top: 45px;
+	margin-left: 9%;
+	-moz-box-shadow:    inset 0 0 0 #000000;
+    -webkit-box-shadow: inset 0 0 0 #000000;
+   box-shadow:         inset 0 0 10px #000000;
+}
+.outer .inner .hold{
+	position: relative;
+	bottom: 50%;
+}
+.outer .inner #tic_1{
+	position:absolute;
+    top: 390px;	
+    left: 37%;
+    background-color: black;
+    transform: rotate(38deg);
+    width: 5px;
+    height: 169px;
+}
+.outer .inner #tic_2{
+	position: absolute;
+    top: 370px;	
+    left: 67%;
+    background-color: black;
+    transform: rotate(-55deg);
+    width: 5px;
+    height: 171px;
+}
+.outer .inner #tic_3{
+	position: absolute;
+    top: 410px;	
+    left: 49%;
+    background-color: black;
+    transform: rotate(3deg);
+    width: 5px;
+    height: 169px;
+}
