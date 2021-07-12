@@ -65,24 +65,24 @@ console.log(first([7, 9, 0, -2],-3));
 
 // Write a simple JavaScript program to join all elements of the following array into a string.
 // Sample array : 
-const myColor = ["Red", "Green", "White", "Black"];
+const myCol = ["Red", "Green", "White", "Black"];
 // Expected Output :
 // "Red,Green,White,Black"
 // "Red,Green,White,Black"
 // "Red+Green+White+Black"
 
 
-function joinArray(a) {
+function joinArr(a) {
     let s = a.join(",")
     return s;
 }
 
-console.log(joinArray(myColor))
+console.log(joinArr(myCol))
 
 
 //  Write a JavaScript program to find the most frequent item of an array
 // Sample array : 
-var arr1=[3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];
+var arr=[3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];
 // Sample Output : a ( 5 times )
 
 function countMax(a) {
@@ -99,4 +99,4 @@ function countMax(a) {
     return `${c} (${count[c]} times)`;
 }
 
-console.log(countMax(arr1));
+console.log(countMax(arr));
