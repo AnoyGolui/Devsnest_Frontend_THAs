@@ -21,7 +21,7 @@
 }
 .outer .inner .hold{
 	position: relative;
-	
+	bottom: 50%;
 }
 .outer .inner #tic_1{
 	position:absolute;
