@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0; 
+}
+body{
+    background:url("https://cdn.stocksnap.io/img-thumbs/280h/abstract-background_R1TEJ3C4DN.jpg"); 
+    background-size: 100%; 
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: aliceblue;
+}
+p{
+    color: azure;
+}
+.buss{
+    opacity: 2.5;
+}
+
+.btn{
+    font-size: 10px;
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: darkblue;
+    border-radius: 20px;
+}
+
+button:hover{
+    background-color: rgb(7, 93, 114);
+}
+
+.info{
+    text-align: center;
+    font-size: 27px;
+}
+
+.occupied{
+    display: inline;
+    margin-left: -35px;
+
+
+}
+
+.booked{
+    background-color: orangered;
+}
+
+
+.remaining{
+    display: inline;
+    margin-left:379px;
+
+}
